@@ -1,7 +1,9 @@
 /**
   node js module to connect to mssql server and call a stored procedure
+  dependency: mssql, dotenv
 **/
 
+require('dotenv').load();
 var sql = require('mssql');
 
 // Create connection to database
